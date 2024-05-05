@@ -9,7 +9,7 @@
     width: calc(33.33% - 20px); /* Three cards per row with some spacing */
     margin: 10px;
     border: 1px solid black;
-    border-radius: 45px; /* Add border-radius for round shape */
+    border-radius: 40px; /* Add border-radius for round shape */
     box-sizing: border-box;
     padding: 20px;
   }
