@@ -1,0 +1,76 @@
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5px;
+    justify-content: space-between; /* Ensure equal spacing between cards */
+  }
+  
+  .card > div {
+    width: calc(33.33% - 20px); /* Three cards per row with some spacing */
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 45px; /* Add border-radius for round shape */
+    box-sizing: border-box;
+    padding: 20px;
+  }
+  
+  .apply-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    margin-top: 5px;
+  }
+  
+  .apply-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .expand {
+    cursor: pointer;
+  }
+  
+  .expand:hover {
+    background-color: #0056b3;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .card > div {
+      width: calc(50% - 20px); /* Display two cards per row on smaller screens */
+    }
+  }
+ 
+  .filter {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    background-color: gray;
+    color: white;
+  }
+  
+  .filter label {
+    margin-right: 10px;
+  }
+  
+  .filter input[type="text"],
+  .filter input[type="checkbox"] {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .filter {
+      flex-direction: column;
+    }
+  
+    .filter label {
+      margin-bottom: 5px;
+    }
+  }
+  
