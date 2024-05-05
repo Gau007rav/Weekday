@@ -3,6 +3,10 @@
 
 
 It is a job search platform in which you can search the job on the basis of some filters like experience ,location and jobrole.
+In this project i created a react app in which i created a components folder. components folder have two component navbar and card. 
+In card component i used the given api and fetched the data. fetched data will show in different cards. 
+After that i applied filters which will filter these cars according to your need. 
+I also add   infinite scroll for a seamless browsing experience in this code.
 
 ## Authors
 
